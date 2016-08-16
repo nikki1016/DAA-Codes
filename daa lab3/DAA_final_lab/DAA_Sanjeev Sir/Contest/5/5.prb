@@ -1,0 +1,30 @@
+								DISCO NIGHT
+
+Joey, Chandler and Ross are going to the DISCO tonight. For entry, they need to buy passes.
+As they all are excited for its their first time in DISCO, they readily stood in a line in no specific order.
+Since the woman at the counter is very pretty, the boys can't help but stare.
+In such a scene, each boy can count the number of boys taller than himself standing in the line before him, thereby blocking the view of the pretty woman. 
+A nearby vendor was offering free passes which made the line disperse. Alas! It was a fake one.
+Now the pretty woman wants the line to be in original form again. The pretty woman requests your help.
+You are given the number of boys in the line,N and each boy has a height H[i] and knows the number of boys taller than himself standing in the line before him before dispersal,C[i].
+It is ensured that the number of boys before and after dispersal is N.
+
+Input:
+Starts with an integer T(1<=T<=10) and N (1 <= N <=3500) separated by a new line.
+Next N lines contain 2 integers each, H[i](>0) and C[i], separated by a space.
+
+Output:
+N integers separated by a space denoting the actual order of the heights before dispersal.
+
+Sample Testcase:
+2
+1
+1 0
+3
+2 0
+1 1
+3 0
+
+Sample Output:
+1
+2 1 3

@@ -1,0 +1,16 @@
+The syllabus(mid sem) is as follows:(pl forward this to others students sec 1
+
+.Basics of digital communication-Its need and advantage---Block
+diagram and concept.
+Defining Sampling-its need and concept.
+Method of sampling
+Types of sampling-natural,flat-top and impulse.
+Need for quantization-(by definition)
+Numerical problems in sampling
+What is power spectrum density-Its concept and perspective view
+Expression for PSE with its need and importance.
+PSE for various codes
+Concept of information
+Its measurement
+Channel Capacity-its need and derivation---(how the capacity of the
+channel is measured under various environmental conditions)

@@ -1,0 +1,26 @@
+									It's Saturday night.
+
+For F.R.I.E.N.D.S., it is 'GAME NIGHT'. 
+The game is quite simple. They spin a bottle, the one on whom the front end of the bottle lands is chosen to answer and the one with back end will pose the query.
+In the first round of the game, Monica raises an intelligent query to Phoebe. As Phoebe is not very good at solving problems, she turns to you for help.
+The problem posed by Monica is as follows:
+She gives Phoebe a word and asks her the minimum number of letters that need to be added at the end of the word to make it a palindrome. 
+
+INPUT
+First line contains an integer T, the number of testcases.
+Next T lines contain a string each of length l(1<=l<=100000).
+The input string will consist of only alphabets.
+
+OUTPUT 
+The smallest palindrome thus formed.
+
+SAMPLE INPUT:
+2
+aaaaaaa
+abcdc
+
+SAMPLE OUTPUT:
+aaaaaaa
+abcdcba
+
+NOTE: 'Aa' is not a palindrome.

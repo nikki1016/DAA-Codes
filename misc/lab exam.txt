@@ -1,0 +1,29 @@
+select ename , to_char(hiredate , 'month dd,yyyy') from emp where deptno = 20 ;
+
+declare
+cursor s is select * from emp;
+r emp%rowtype;
+sal emp.SAL%type;
+name emp.ename%type;
+avgsal emp.SAL%type;
+begin
+open s;
+if (s%notfound) then
+dbms_output.put_line('ERROR!!');
+else loop
+    exit when s%notfound;
+    fetch s into r;
+  select avrg into avgsal from ( select avg(SAL) as avrg, deptno as d
+   from emp group by deptno)
+   where d = r.deptno;
+  --  dbms_output.put_line('Name : '||r.ename || ' salary :  '||r.sal||'Average sal : '||avgsal );
+    if(r.sal > avgsal) then dbms_output.put_line(r.ename || ' '||r.sal );
+   end if;
+end loop;
+end if;
+close s;
+end
+
+select count( *)
+from emp
+where job = 'MANAGER';
